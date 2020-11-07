@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import pprint
 
 
 # Help from Tech with Tim, https://cs.lmu.edu/~ray/notes/backtracking/ 
@@ -88,7 +87,6 @@ board1 = [
         [0, 0, 0, 0, 0, 0, 0, 7, 4],
         [0, 0, 5, 2, 0, 6, 3, 0, 0]]
 
-pp = pprint.PrettyPrinter(width = 41, compact = True)
 
 print("UNSOLVED")
 print_board(board1)
